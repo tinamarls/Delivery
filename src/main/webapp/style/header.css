@@ -1,0 +1,40 @@
+.header{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: var(--box-shadow);
+    position: sticky;
+    top:0; left:0; right: 0;
+    background: var(--white);
+    z-index: 1000;
+}
+
+.header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:var(--black);
+}
+
+.header .logo i{
+    color:var(--peru);
+    padding-right: .5rem;
+}
+
+.header .logo img{
+    /*color:var(--peru);*/
+    padding-right: .5rem;
+    height: 4rem;
+    width: 15rem;
+}
+
+.header .navbar a{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color:var(--light-black);
+}
+
+.header .navbar a:hover{
+    color:var(--peru);
+}

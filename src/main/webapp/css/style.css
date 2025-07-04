@@ -1,0 +1,74 @@
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 17px;
+    border-collapse: collapse;
+    text-align: center;
+}
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+.tables{
+    display: inline-block;
+    float: left;
+}
+.tables th {
+    background: #AFCDE7;
+    color: white;
+    padding: 10px 20px;
+}
+.tables th, td {
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    border-color: white;
+}
+.tables td {
+    background: #D8E6F3;
+    line-height: 25px;
+}
+
+.tables tr td .photo-product img{
+    height: 15rem;
+    width: 15rem;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+select {
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 12px 16px;
+    border-radius: 100px;
+    background: #daedfc;
+}
+
+.tables tr td button {
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 12px 16px;
+    border-radius: 100px;
+    background: #8eabd3;
+}
+. tables tr td button:hover{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    background: #7090bb;
+}
+
+.courier form label input {
+
+    width: 100%;
+    margin:1rem 0;
+    padding:1.2rem 1.4rem;
+    font-size: 1.7rem;
+    color:var(--light-black);
+    border:var(--border);
+    text-transform: none;
+}
